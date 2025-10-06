@@ -15,7 +15,7 @@ A beautiful, interactive image gallery built with HTML, CSS, and JavaScript feat
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-deployed-site.vercel.app) *(Replace with your Vercel URL)*
+[View Live Demo]((https://image-gallery-showcase.vercel.app/)) 
 
 ## 📂 Project Structure
 
@@ -58,16 +58,6 @@ image-gallery/
 - Uses `<iframe>` with `target` attribute for CSS-only image switching
 - Each image has a corresponding HTML wrapper file for proper scaling
 - Implements `object-fit: contain` for complete image display
-
-### Animation System
-```javascript
-function animatePic(element) {
-    element.classList.add("animate__animated", "animate__rubberBand");
-    setTimeout(() => {
-        element.classList.remove("animate__animated", "animate__rubberBand");
-    }, 1000);
-}
-```
 
 ### Responsive Design
 - Flexbox layout for centering and alignment
